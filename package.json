@@ -1,0 +1,21 @@
+{
+  "name": "keyevents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-desktop": "./client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dbus": "^1.0.3",
+    "dbus-native": "^0.2.5",
+    "input-event": "^1.2.4",
+    "mbus": "^2.0.0",
+    "node-mbus": "^0.5.3"
+  }
+}
